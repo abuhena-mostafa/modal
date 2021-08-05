@@ -1,0 +1,28 @@
+.carousel-control-prev1, .carousel-control-next1 {
+  
+    top: 60%;
+    color: red;
+  
+}
+
+.carousel-control-prev1{
+    width: 175%;
+}
+
+.carousel-indicators1 {
+    position: absolute;
+    right: 50%;
+   display: block !important;
+    margin-right: 15%;
+    margin-bottom: 13rem;
+    margin-left: 8%;
+ 
+  
+}
+.carousel-indicators1 [data-bs-target] {
+    box-sizing: content-box;
+    /* flex: 0 1 auto; */
+    display: block;
+    width: 12px;
+    height: 13px;
+  }

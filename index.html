@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/media_query.css">
+
+    <title>Bootstrap</title>
+
+  </head>
+
+
+  <body>
+
+
+      <section>
+
+        <h1 class="text-center bg-danger p-0 m-0">
+          
+          Modal
+        </h1>
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary w-100 " data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Click Here
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Hello!!!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </section>
+
+
+      <!--carousol-->
+
+      <div id="c_id" class="carousel slide" data-bs-ride="carousel">
+
+        <!--indicator-->
+  <div class="carousel-indicators carousel-indicators1">
+    <button type="button" data-bs-target="#c_id" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#c_id" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#c_id" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+        <!--inner-->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/p-3.jpg" class="d-block img-fluid w-100" alt="slider">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Natural and wild creatures</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/p-2.jpg" class="d-block img-fluid w-100" alt="slider">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Natural and wild creatures</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/p-3.jpg" class="d-block img-fluid w-100" alt="slider">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Natural and wild creatures</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--button-->
+  <button class="carousel-control-prev carousel-control-prev1" type="button" data-bs-target="#c_id" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next carousel-control-next1" type="button" data-bs-target="#c_id" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  
+  
+  
+
+    <!--bootstrap js links -->
+   
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  
+  </body>
+</html>
